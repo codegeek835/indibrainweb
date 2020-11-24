@@ -1,0 +1,320 @@
+﻿
+
+/*====================================
+
+ Free To Use For Personal And Commercial Usage
+
+Author: http://binarytheme.com
+
+ Share Us if You Like our work 
+
+ Enjoy Our Codes For Free always.
+
+======================================*/
+
+
+
+/* user image section */
+
+.user-section {
+
+    margin-top:20px;
+
+    font-size:22px;
+
+}
+
+.user-section-inner {
+
+    height: 65px;
+
+width: 65px;
+
+-moz-border-radius: 3px;
+
+-webkit-border-radius: 3px;
+
+border-radius: 3px;
+
+overflow: hidden;
+
+display: inline-block;
+
+float: left;
+
+margin-right: 15px;
+
+margin-top: 20px;
+
+}
+
+    .user-section-inner img {
+
+        margin-left:10px;
+
+        width:55px;
+
+        height:60px;
+
+        
+
+    }
+
+.user-info {
+
+    display: block;
+
+    color:#000!important;
+
+display: inline-block;
+
+padding: 15px;
+
+margin-bottom: 0px
+
+}
+
+.user-text-online {
+
+    font-size:18px;
+
+    color:#000
+
+}
+
+.user-circle-online {
+
+    width: 15px!important;
+
+    height: 15px!important;
+
+}
+
+.back-g {
+    color: #cba756!important;
+    background-color: #151d21!important;
+    border-color: #151d21!important;
+    text-align: center;
+        border-radius: 10px;
+}
+
+.p-t-b {
+        padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.border-r {
+    border-radius: 10px;
+}
+
+/* side-menu section */
+
+.nav > li > a:hover, .nav > li > a:focus {
+
+    background-color:rgba(74, 72, 126, 0);
+
+}
+
+.navbar-top-links  .open > a, .nav .open > a:hover, .nav .open > a:focus {
+
+    background-color: #75C5B8;
+
+}
+
+.navbar-top-links > li > a {
+
+color: #FFFFFF;
+
+}
+
+.nav > li > a {
+
+    padding: 15px 15px;
+
+}
+
+#side-menu {
+
+    background-color:#fff;
+
+}
+
+
+
+ #side-menu a {
+
+                color: #000;
+    border-bottom: 1px solid #f1f1f1  !important;
+
+        
+
+        }
+
+        .selected {
+
+            background-color:rgb(83, 163, 163);
+
+        }
+
+/* back colors */
+
+        .blue {
+
+            background-color:rgb(113, 159, 241);
+
+        }
+
+         .green {
+
+            background-color:rgb(144, 236, 192);
+
+        }
+
+          .red {
+
+            background-color:rgb(255, 102, 133);
+
+        }
+
+        .yellow {
+
+            background-color:rgb(237, 253, 46);
+
+        }
+
+
+
+  /* No border */
+
+.no-boder {
+
+    border:0px solid #5bc0de !important;
+
+}
+
+/* tap nvbar Section */
+
+
+
+#navbar {
+
+    background-color:#151d21;
+
+}
+
+
+
+.navbar-brand {
+
+    padding-left:20px;
+
+}
+
+.navbar-brand img {
+
+    height:30px;
+
+}
+
+.top-label {
+
+    position: absolute;
+
+top: 50%;
+
+right: 50%;
+
+margin-top: -24px;
+
+margin-right: -24px;
+
+}
+
+
+
+/*large font*/
+
+.large-font {
+
+    font-size:18px;
+
+}
+
+
+
+.body-Login-back {
+
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: #9053c7;
+    background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+    background: linear-gradient(-135deg, #c850c0, #4158d0);
+
+}
+
+
+
+.margin-tips {
+
+    margin:5px;
+
+}
+
+.navbar-default {
+
+border-color: #27A6BE;
+
+}
+
+/*media queries*/
+
+
+
+@media(min-width:768px) 
+
+{
+
+    #page-wrapper {
+
+        position: inherit;
+
+        margin: 0 0 0 250px;
+
+        padding: 0 30px;
+
+        min-height: 700px;
+
+       
+
+       
+
+    }
+
+
+
+}
+
+
+
+@media(max-width:768px) {
+
+#wrapper {
+
+    margin-top:140px!important;
+
+    
+
+}
+
+}

@@ -1,0 +1,175 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,800,700,600);
+.title-block {
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7dde4;
+}
+.title-description {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: normal;
+    color: #7e8e9f;
+}
+.dashboard-page .stats .card-block {
+    padding-bottom: 0;
+}
+@media (min-width: 1200px){
+.card-block {
+    padding: 20px;
+}}
+.card .title-block, .card .card-title-block {
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    border: none;
+}
+.card .title {
+    font-size: 1.1rem;
+    color: #4f5f6f;
+}
+.dashboard-page .stats .stat-col {
+    margin-bottom: 20px;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.row-sm [class^='col'] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.dashboard-page .stats .stat-icon {
+    color: #BDBDBD;
+    display: inline-block;
+    font-size: 26px;
+    text-align: center;
+    vertical-align: middle;
+    width: 50px;
+}
+.dashboard-page .stats .stat {
+    vertical-align: middle;
+}
+.stat {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    margin-right: 10px;
+}
+@media (min-width: 1200px){
+.dashboard-page .stats .stat .name {
+    font-size: 0.9vw;
+}}
+.stat .name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.dashboard-page .stats .stat-progress {
+    height: 2px;
+    margin: 5px 0;
+    color: #85CE36;
+    background-color: #dddddd;
+}
+.dashboard-page .stats .stat-progress .progress-bar {
+    background-color: #85CE36;
+}
+.card .card-header.card-header-sm {
+    min-height: 40px;
+}
+
+.card .card-header.bordered {
+    border-bottom: 1px solid #d7dde4;
+}
+.card .card-header {
+    background-image: none;
+    background-color: #ffffff;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 0;
+    border-radius: 0;
+    min-height: 50px;
+}
+@media (min-width: 1200px){
+.card .card-header .header-block {
+    padding: 0.5rem 20px;
+}}
+.card .card-header .nav-tabs {
+    border-color: transparent;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    top: 1px;
+}
+.card .card-header .pull-right {
+    margin-left: auto;
+}
+.card .card-header .nav-tabs .nav-item .nav-link.active {
+    border-top-color: #85CE36;
+    border-bottom-color: transparent;
+    opacity: 1;
+}
+.card .card-header .nav-tabs .nav-item .nav-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #4f5f6f;
+    opacity: 0.7;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 0;
+    font-size: 14px;
+    border-top-width: 2px;
+    border-bottom: 1px solid #d7dde4;
+    text-decoration: none;
+}
+.dashboard-sidebar {
+    background-color: #3a4651!important;
+}
+.dashboard-nav ul li.active a {
+        background-color: #85CE36 !important;
+    color: #ffffff !important;
+}
+.dashboard-nav ul li a:hover{
+        background-color: #000 !important;
+        color: #ffffff !important;
+}
+.dashboard-nav ul li {font-size: 14px;
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+.dashboard-nav {
+    padding: 0px;
+}
+.dashboard-sidebar {
+    background-color: #ffffff;
+    box-shadow: 0 0 1px 0 rgb(198, 198, 198, 0.85);
+    /* margin-bottom: 50px; */
+    position: fixed;
+    bottom: 0px;
+    height: 100%;
+    width: 240px;
+    top: 80px;
+}
+.dashboard-nav ul li a {
+    padding: 15px 6px!important;
+	border-bottom:none;
+}
+.dropleft .dropdown-toggle::before {display:none!important;}
+.dropdown-item i{color: #85CE36 !important;
+padding-right:5px;}
+.dropdown-item {padding-top:7px!important;
+padding-bottom:7px!important;}
