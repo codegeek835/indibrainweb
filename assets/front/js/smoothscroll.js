@@ -137,9 +137,9 @@
       observer.observe(body, config);
 
       if (root.offsetHeight <= windowHeight) {
-        var clearFix = document.createElement('div');
-        clearFix.style.clear = 'both';
-        body.appendChild(clearFix);
+        var clearfix = document.createElement('div');
+        clearfix.style.clear = 'both';
+        body.appendChild(clearfix);
       }
     }
 
@@ -326,7 +326,7 @@
 
     // nothing to do if there's no element that's scrollable
     if (!overflowing) {
-      // except Chrome iframe seem to eat wheel events, which we need to
+      // except Chrome iframes seem to eat wheel events, which we need to
       // propagate up, if the iframe has nothing overflowing to scroll
       if (isFrame && isChrome) {
         // change target to iframe element itself for the parent frame

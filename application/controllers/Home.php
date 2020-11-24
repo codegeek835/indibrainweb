@@ -15,7 +15,7 @@ class Home extends CI_Controller
 	public function index()
 	{
 		$data = array();
-		$data['title'] = "Home | Jephine Creative Agency";
+		$data['title'] = "Home |  Jephine Creative Agency";
 		$data['description'] = "Welcome to Jephine Creative Agency";
 		$data['keywords'] = str_replace(" ", ",", $data['title']);
 		$data['most_categorys'] = $this->HomeModel->getMostCategory();

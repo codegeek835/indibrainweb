@@ -3,7 +3,7 @@
       <div class="row">
          <div class="col-sm-2 col-md-2">
             <div class="widget widget-text">
-               <div class="logo-footer"><a href="<?php echo base_url('/')?>"> <img class="img-responsive" src="<?php echo base_url('assets/front/images/logo.png')?>" alt=""></a> </div>
+               <div class="logo-footer"><a href="<?php echo base_url('/') ?>"> <img class="img-responsive" src="<?php echo base_url('assets/front/images/logo.png') ?>" alt=""></a> </div>
             </div>
          </div>
          <div class="col-sm-2 col-md-2">
@@ -62,11 +62,11 @@
                </ul>
                <div class="social-icons-style-02">
                   <div class="socialmediaicons socialmediaicons2">
-<a href="https://www.facebook.com/Jephine-113757290350982"  target="block" class="fa fa-facebook"></a>
-<a href="javascript:void(0)" class="fa fa-twitter"></a>
-<a href="javascript:void(0)" class="fa fa-youtube"></a>
-<a href="https://www.instagram.com/jephineofficial/" target="block" class="fa fa-instagram"></a>
-</div>
+                     <a href="https://www.facebook.com/Jephine-113757290350982" target="block" class="fa fa-facebook"></a>
+                     <a href="javascript:void(0)" class="fa fa-twitter"></a>
+                     <a href="javascript:void(0)" class="fa fa-youtube"></a>
+                     <a href="https://www.instagram.com/jephineofficial/" target="block" class="fa fa-instagram"></a>
+                  </div>
                </div>
             </div>
          </div>
