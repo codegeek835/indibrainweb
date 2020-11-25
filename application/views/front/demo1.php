@@ -1,6 +1,6 @@
-<?php $this->load->view('front/lib/header.php');?>
+<?php $this->load->view('front/lib/header.php'); ?>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-<!--== Header End ==-->      
+<!--== Header End ==-->
 <section>
    <!-- about-us-1 start -->
    <div class="carousel slide">
@@ -28,69 +28,187 @@
       </div>
       <div class="row  m-t-50">
          <div class="col-md-4">
-             <div class="pricing-container">
-		<div class="pricing-switcher">
-			<p class="fieldset">
-				<input type="radio" name="duration-1" value="monthly" id="monthly-1" checked>
-				<label for="monthly-1">Monthly</label>
-				<input type="radio" name="duration-1" value="yearly" id="yearly-1">
-				<label for="yearly-1">Yearly</label>
-				<span class="switch"></span>
-			</p>
-		</div>
-		<ul class="pricing-list bounce-invert">
-			<li>
-				<ul class="pricing-wrapper">
-					<li data-type="monthly" class="is-visible">
-						<header class="pricing-header">
-							<h2>Basic</h2>
-							<div class="price">
-								<span class="currency">$</span>
-								<span class="value">30</span>
-								<span class="duration">mo</span>
-							</div>
-						</header>
-						<div class="pricing-body">
-							<ul class="pricing-features">
-								<li><em>5</em> Email Accounts</li>
-								<li><em>1</em> Template Style</li>
-								<li><em>25</em> Products Loaded</li>
-								<li><em>1</em> Image per Product</li>
-								<li><em>Unlimited</em> Bandwidth</li>
-								<li><em>24/7</em> Support</li>
-							</ul>
-						</div>
-						<footer class="pricing-footer">
-							<a class="select" href="#">Sign Up</a>
-						</footer>
-					</li>
-					<li data-type="yearly" class="is-hidden">
-						<header class="pricing-header">
-							<h2>Basic</h2>
-							<div class="price">
-								<span class="currency">$</span>
-								<span class="value">320</span>
-								<span class="duration">yr</span>
-							</div>
-						</header>
-						<div class="pricing-body">
-							<ul class="pricing-features">
-								<li><em>5</em> Email Accounts</li>
-								<li><em>1</em> Template Style</li>
-								<li><em>25</em> Products Loaded</li>
-								<li><em>1</em> Image per Product</li>
-								<li><em>Unlimited</em> Bandwidth</li>
-								<li><em>24/7</em> Support</li>
-							</ul>
-						</div>
-						<footer class="pricing-footer">
-							<a class="select" href="#">Sign Up</a>
-						</footer>
-					</li>
-				</ul>
-			</li>
-		</ul>
-	</div>
+            <h2 class="text-center">Pay as you go pack</h2>
+            <div class="col-md-12 pricing-container">
+               <div class="pricing-switcher">
+                  <p class="fieldset">
+                     <input type="radio" name="duration-1" value="monthly" id="monthly-1" checked>
+                     <label for="monthly-1">Monthly</label>
+                     <input type="radio" name="duration-1" value="yearly" id="yearly-1">
+                     <label for="yearly-1">Yearly</label>
+                     <span class="switch"></span>
+                  </p>
+               </div>
+               <ul class="pricing-wrapper">
+                  <li data-type="monthly" class="is-visible">
+                     <header class="pricing-header">
+                        <h2>Basic</h2>
+                        <div class="price">
+                           <span class="currency">$</span>
+                           <span class="value">30</span>
+                           <span class="duration">mo</span>
+                        </div>
+                     </header>
+                     <div class="pricing-body">
+                        <ul class="pricing-features">
+                           <li><em>5</em> Email Accounts</li>
+                           <li><em>1</em> Template Style</li>
+                           <li><em>25</em> Products Loaded</li>
+                           <li><em>1</em> Image per Product</li>
+                           <li><em>Unlimited</em> Bandwidth</li>
+                           <li><em>24/7</em> Support</li>
+                        </ul>
+                     </div>
+                     <footer class="pricing-footer">
+                        <a class="select" href="#">Sign Up</a>
+                     </footer>
+                  </li>
+                  <li data-type="yearly" class="is-hidden">
+                     <header class="pricing-header">
+                        <h2>Basic</h2>
+                        <div class="price">
+                           <span class="currency">$</span>
+                           <span class="value">320</span>
+                           <span class="duration">yr</span>
+                        </div>
+                     </header>
+                     <div class="pricing-body">
+                        <ul class="pricing-features">
+                           <li><em>5</em> Email Accounts</li>
+                           <li><em>1</em> Template Style</li>
+                           <li><em>25</em> Products Loaded</li>
+                           <li><em>1</em> Image per Product</li>
+                           <li><em>Unlimited</em> Bandwidth</li>
+                           <li><em>24/7</em> Support</li>
+                        </ul>
+                     </div>
+                     <footer class="pricing-footer">
+                        <a class="select" href="#">Sign Up</a>
+                     </footer>
+                  </li>
+               </ul>
+            </div>
+         </div>
+         <div class="col-md-8">
+            <h2 class="text-center">Subscription</h2>
+            <div class="col-md-6 pricing-container">
+               <div class="pricing-switcher">
+                  <p class="fieldset">
+                     <input type="radio" name="duration-2" value="monthly" id="monthly-2" checked>
+                     <label for="monthly-2">Monthly</label>
+                     <input type="radio" name="duration-2" value="yearly" id="yearly-2">
+                     <label for="yearly-2">Yearly</label>
+                     <span class="switch"></span>
+                  </p>
+               </div>
+               <ul class="pricing-wrapper">
+                  <li data-type="monthly" class="is-visible">
+                     <header class="pricing-header">
+                        <h2>Basic</h2>
+                        <div class="price">
+                           <span class="currency">$</span>
+                           <span class="value">300</span>
+                           <span class="duration">mo</span>
+                        </div>
+                     </header>
+                     <div class="pricing-body">
+                        <ul class="pricing-features">
+                           <li><em>5</em> Email Accounts</li>
+                           <li><em>1</em> Template Style</li>
+                           <li><em>25</em> Products Loaded</li>
+                           <li><em>1</em> Image per Product</li>
+                           <li><em>Unlimited</em> Bandwidth</li>
+                           <li><em>24/7</em> Support</li>
+                        </ul>
+                     </div>
+                     <footer class="pricing-footer">
+                        <a class="select" href="#">Sign Up</a>
+                     </footer>
+                  </li>
+                  <li data-type="yearly" class="is-hidden">
+                     <header class="pricing-header">
+                        <h2>Basic</h2>
+                        <div class="price">
+                           <span class="currency">$</span>
+                           <span class="value">3200</span>
+                           <span class="duration">yr</span>
+                        </div>
+                     </header>
+                     <div class="pricing-body">
+                        <ul class="pricing-features">
+                           <li><em>5</em> Email Accounts</li>
+                           <li><em>1</em> Template Style</li>
+                           <li><em>25</em> Products Loaded</li>
+                           <li><em>1</em> Image per Product</li>
+                           <li><em>Unlimited</em> Bandwidth</li>
+                           <li><em>24/7</em> Support</li>
+                        </ul>
+                     </div>
+                     <footer class="pricing-footer">
+                        <a class="select" href="#">Sign Up</a>
+                     </footer>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-md-6 pricing-container">
+               <div class="pricing-switcher">
+                  <p class="fieldset">
+                     <input type="radio" name="duration-3" value="monthly" id="monthly-3" checked>
+                     <label for="monthly-3">Monthly</label>
+                     <input type="radio" name="duration-3" value="yearly" id="yearly-3">
+                     <label for="yearly-3">Yearly</label>
+                     <span class="switch"></span>
+                  </p>
+               </div>
+               <ul class="pricing-wrapper">
+                  <li data-type="monthly" class="is-visible">
+                     <header class="pricing-header">
+                        <h2>Basic</h2>
+                        <div class="price">
+                           <span class="currency">$</span>
+                           <span class="value">340</span>
+                           <span class="duration">mo</span>
+                        </div>
+                     </header>
+                     <div class="pricing-body">
+                        <ul class="pricing-features">
+                           <li><em>5</em> Email Accounts</li>
+                           <li><em>1</em> Template Style</li>
+                           <li><em>25</em> Products Loaded</li>
+                           <li><em>1</em> Image per Product</li>
+                           <li><em>Unlimited</em> Bandwidth</li>
+                           <li><em>24/7</em> Support</li>
+                        </ul>
+                     </div>
+                     <footer class="pricing-footer">
+                        <a class="select" href="#">Sign Up</a>
+                     </footer>
+                  </li>
+                  <li data-type="yearly" class="is-hidden">
+                     <header class="pricing-header">
+                        <h2>Basic</h2>
+                        <div class="price">
+                           <span class="currency">$</span>
+                           <span class="value">3020</span>
+                           <span class="duration">yr</span>
+                        </div>
+                     </header>
+                     <div class="pricing-body">
+                        <ul class="pricing-features">
+                           <li><em>5</em> Email Accounts</li>
+                           <li><em>1</em> Template Style</li>
+                           <li><em>25</em> Products Loaded</li>
+                           <li><em>1</em> Image per Product</li>
+                           <li><em>Unlimited</em> Bandwidth</li>
+                           <li><em>24/7</em> Support</li>
+                        </ul>
+                     </div>
+                     <footer class="pricing-footer">
+                        <a class="select" href="#">Sign Up</a>
+                     </footer>
+                  </li>
+               </ul>
+            </div>
          </div>
       </div>
    </div>
@@ -113,7 +231,7 @@
                         <th scope="col"></th>
                         <th scope="col" class="text-18-c">Compact <br> Subsciption</th>
                         <th scope="col" class="text-18-c">Comprehensive <br> Subsciption</th>
-                        <th scope="col" class="text-18-c">Pay as You Go<br>  Packs</th>
+                        <th scope="col" class="text-18-c">Pay as You Go<br> Packs</th>
                      </tr>
                   </thead>
                   <tbody>
@@ -249,10 +367,10 @@
          <div class="col-md-6">
             <button class="accordion">Can I use Jephine Free Library without buying anything?</button>
             <div class="panel">
-               <p>Off course you can. There is no compulsion of buying for using our free library. 
-               It is in fact created to help your budget projects. If it works for you we will be more than happy to help. 
-               We will need just one favor that you attribute the image. This will help our marketing and encourage our wonderful and hardworking
-               Creative Partners to add more and more free content for you.</p>
+               <p>Off course you can. There is no compulsion of buying for using our free library.
+                  It is in fact created to help your budget projects. If it works for you we will be more than happy to help.
+                  We will need just one favor that you attribute the image. This will help our marketing and encourage our wonderful and hardworking
+                  Creative Partners to add more and more free content for you.</p>
                <p>Attribution for Free Images: "Jephine.com/Creative Partner name"</p>
             </div>
             <button class="accordion">What is the difference between Free Library & Prime Library?</button>
@@ -266,13 +384,13 @@
             <div class="panel">
                <p>Pay As You Go Packs are to buy images in bundles, so that you pay less for more content. PAYG Packs are useful andeconomical when you do not need images regularly. You can download within one year, so use it when you need it.</p>
             </div>
-            
+
             <button class="accordion">What are Compact & Comprehensive Subscription Plans?</button>
             <div class="panel">
                <p><strong>Compact Subscription</strong> is specially designed to counter small size image needs. You get compressed image size.It is suitable for websites, blogs, social media, mobile apps and personal small print usage.</p>
                <p><strong>Comprehensive Subscription </strong> gives you full size images. IF you want to use images for large prints this is the plan you should go for.This will be original size image clicked by our creative partners, so best quality. It is suitable for large prints, indoor posters,outdoor posters, Backdrops, billboards and digital screen displays.</p>
             </div>
-            
+
             <button class="accordion">What is the difference between Standard and Extended License?</button>
             <div class="panel">
                <p>All files from JEPHINE comes with standard license.</p>
@@ -280,16 +398,16 @@
                <p>Restrictions: Limited Print runs (up to 100,000), not for resale or any commercial use, not forsharing or distribution.</p>
                <p><strong>Extended License</strong> allows user to use image(s) for commercial use, unlimited prints, sharing and distribution. Please visit License Agreement for more details</p>
             </div>
-            
+
             <button class="accordion">Can I cancel my Subscription?</button>
             <div class="panel">
                <p><strong>Monthly Subscription:</strong> Yes, you can cancel your monthly subscription by stopping Auto-renew for next month.</p>
                <p><strong>Yearly Subscription:</strong> As it is onetime payment, no cancellation is available for yearly subscriptions.</p>
             </div>
          </div>
-         
-         
-         
+
+
+
          <div class="col-md-6">
             <button class="accordion">Can I upgrade my Subscription?</button>
             <div class="panel">
@@ -324,48 +442,50 @@
    <div class="container">
       <div class="row m-t-50">
          <div class="col-md-7">
-             
+
             <form>
-  <div class="form-row">
-      <div class="form-group col-md-12 m-b-f-30"><h3>Let us create a customized plan for you</h3></div>
-      <br>
-    <div class="form-group col-md-6">
-      <label>Name</label>
-      <input type="text" class="form-control" placeholder="Name">
-    </div>
-    <div class="form-group col-md-6">
-      <label>Email</label>
-      <input type="email" class="form-control" placeholder="Email">
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-6">
-      <label>Phone No</label>
-      <input type="text" class="form-control" placeholder="Phone No">
-    </div>
-    <div class="form-group col-md-6">
-      <label>Country</label>
-      <input type="text" class="form-control" placeholder="Country">
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-12">
-      <label>Company Name</label>
-      <input type="text" class="form-control" placeholder="Company Name">
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-12">
-      <label>Message</label>
-      <textarea class="form-control" placeholder="Tell us in few words how we can help?" rows="3"></textarea>
-    </div>
-  </div>
-  <div class="form-row">
-    <div class="form-group col-md-12 text-center">
-      <a href="" class="btn bt-log btn-lg white-color">Send Message</a>
-    </div>
-  </div>
-</form>
+               <div class="form-row">
+                  <div class="form-group col-md-12 m-b-f-30">
+                     <h3>Let us create a customized plan for you</h3>
+                  </div>
+                  <br>
+                  <div class="form-group col-md-6">
+                     <label>Name</label>
+                     <input type="text" class="form-control" placeholder="Name">
+                  </div>
+                  <div class="form-group col-md-6">
+                     <label>Email</label>
+                     <input type="email" class="form-control" placeholder="Email">
+                  </div>
+               </div>
+               <div class="form-row">
+                  <div class="form-group col-md-6">
+                     <label>Phone No</label>
+                     <input type="text" class="form-control" placeholder="Phone No">
+                  </div>
+                  <div class="form-group col-md-6">
+                     <label>Country</label>
+                     <input type="text" class="form-control" placeholder="Country">
+                  </div>
+               </div>
+               <div class="form-row">
+                  <div class="form-group col-md-12">
+                     <label>Company Name</label>
+                     <input type="text" class="form-control" placeholder="Company Name">
+                  </div>
+               </div>
+               <div class="form-row">
+                  <div class="form-group col-md-12">
+                     <label>Message</label>
+                     <textarea class="form-control" placeholder="Tell us in few words how we can help?" rows="3"></textarea>
+                  </div>
+               </div>
+               <div class="form-row">
+                  <div class="form-group col-md-12 text-center">
+                     <a href="" class="btn bt-log btn-lg white-color">Send Message</a>
+                  </div>
+               </div>
+            </form>
          </div>
          <div class="col-md-5">
             <hr>
@@ -384,112 +504,111 @@
 </section>
 <!--== Footer Start ==-->
 <footer class="footer">
-   <?php $this->load->view('front/lib/footer.php');?>
+   <?php $this->load->view('front/lib/footer.php'); ?>
 </footer>
 <!--== Footer End ==-->
 </div>
-<?php $this->load->view('front/lib/footer-js.php');?>
+<?php $this->load->view('front/lib/footer-js.php'); ?>
 <script>
    var acc = document.getElementsByClassName("accordion");
    var i;
-   
    for (i = 0; i < acc.length; i++) {
-     acc[i].addEventListener("click", function() {
-       this.classList.toggle("active");
-       var panel = this.nextElementSibling;
-       if (panel.style.maxHeight) {
-         panel.style.maxHeight = null;
-       } else {
-         panel.style.maxHeight = panel.scrollHeight + "px";
-       } 
-     });
+      acc[i].addEventListener("click", function() {
+         this.classList.toggle("active");
+         var panel = this.nextElementSibling;
+         if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+         } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+         }
+      });
    }
-</script>
+   jQuery(document).ready(function($) {
+      //hide the subtle gradient layer (.pricing-list > li::after) when pricing table has been scrolled to the end (mobile version only)
+      checkScrolling($('.pricing-body'));
+      $(window).on('resize', function() {
+         window.requestAnimationFrame(function() {
+            checkScrolling($('.pricing-body'))
+         });
+      });
+      $('.pricing-body').on('scroll', function() {
+         var selected = $(this);
+         window.requestAnimationFrame(function() {
+            checkScrolling(selected)
+         });
+      });
 
+      function checkScrolling(tables) {
+         tables.each(function() {
+            var table = $(this),
+               totalTableWidth = parseInt(table.children('.pricing-features').width()),
+               tableViewport = parseInt(table.width());
+            if (table.scrollLeft() >= totalTableWidth - tableViewport - 1) {
+               table.parent('li').addClass('is-ended');
+            } else {
+               table.parent('li').removeClass('is-ended');
+            }
+         });
+      }
 
-<script>
-   jQuery(document).ready(function($){
-	//hide the subtle gradient layer (.pricing-list > li::after) when pricing table has been scrolled to the end (mobile version only)
-	checkScrolling($('.pricing-body'));
-	$(window).on('resize', function(){
-		window.requestAnimationFrame(function(){checkScrolling($('.pricing-body'))});
-	});
-	$('.pricing-body').on('scroll', function(){ 
-		var selected = $(this);
-		window.requestAnimationFrame(function(){checkScrolling(selected)});
-	});
+      //switch from monthly to annual pricing tables
+      bouncy_filter($('.pricing-container'));
 
-	function checkScrolling(tables){
-		tables.each(function(){
-			var table= $(this),
-				totalTableWidth = parseInt(table.children('.pricing-features').width()),
-		 		tableViewport = parseInt(table.width());
-			if( table.scrollLeft() >= totalTableWidth - tableViewport -1 ) {
-				table.parent('li').addClass('is-ended');
-			} else {
-				table.parent('li').removeClass('is-ended');
-			}
-		});
-	}
+      function bouncy_filter(container) {
+         container.each(function() {
+            var pricing_table = $(this);
+            var filter_list_container = pricing_table.children('.pricing-switcher'),
+               filter_radios = filter_list_container.find('input[type="radio"]'),
+               pricing_table_wrapper = pricing_table.find('.pricing-wrapper');
 
-	//switch from monthly to annual pricing tables
-	bouncy_filter($('.pricing-container'));
+            //store pricing table items
+            var table_elements = {};
+            filter_radios.each(function() {
+               var filter_type = $(this).val();
+               table_elements[filter_type] = pricing_table_wrapper.find('li[data-type="' + filter_type + '"]');
+            });
 
-	function bouncy_filter(container) {
-		container.each(function(){
-			var pricing_table = $(this);
-			var filter_list_container = pricing_table.children('.pricing-switcher'),
-				filter_radios = filter_list_container.find('input[type="radio"]'),
-				pricing_table_wrapper = pricing_table.find('.pricing-wrapper');
+            //detect input change event
+            filter_radios.on('change', function(event) {
+               event.preventDefault();
+               //detect which radio input item was checked
+               var selected_filter = $(event.target).val();
 
-			//store pricing table items
-			var table_elements = {};
-			filter_radios.each(function(){
-				var filter_type = $(this).val();
-				table_elements[filter_type] = pricing_table_wrapper.find('li[data-type="'+filter_type+'"]');
-			});
+               //give higher z-index to the pricing table items selected by the radio input
+               show_selected_items(table_elements[selected_filter]);
+               //rotate each pricing-wrapper 
+               //at the end of the animation hide the not-selected pricing tables and rotate back the .pricing-wrapper
+               if (!Modernizr.cssanimations) {
+                  hide_not_selected_items(table_elements, selected_filter);
+                  pricing_table_wrapper.removeClass('is-switched');
+               } else {
+                  pricing_table_wrapper.addClass('is-switched').eq(0).one('webkitAnimationEnd animationend msAnimationEnd animationend', function() {
+                     hide_not_selected_items(table_elements, selected_filter);
+                     pricing_table_wrapper.removeClass('is-switched');
+                     //change rotation direction if .pricing-list has the .bounce-invert class
+                     if (pricing_table.find('.pricing-list').hasClass('bounce-invert')) pricing_table_wrapper.toggleClass('reverse-animation');
+                  });
+               }
+            });
+         });
+      }
 
-			//detect input change event
-			filter_radios.on('change', function(event){
-				event.preventDefault();
-				//detect which radio input item was checked
-				var selected_filter = $(event.target).val();
+      function show_selected_items(selected_elements) {
+         selected_elements.addClass('is-selected');
+      }
 
-				//give higher z-index to the pricing table items selected by the radio input
-				show_selected_items(table_elements[selected_filter]);
+      function hide_not_selected_items(table_containers, filter) {
+         $.each(table_containers, function(key, value) {
+            if (key != filter) {
+               $(this).removeClass('is-visible is-selected').addClass('is-hidden');
 
-				//rotate each pricing-wrapper 
-				//at the end of the animation hide the not-selected pricing tables and rotate back the .pricing-wrapper
-				
-				if( !Modernizr.cssanimations ) {
-					hide_not_selected_items(table_elements, selected_filter);
-					pricing_table_wrapper.removeClass('is-switched');
-				} else {
-					pricing_table_wrapper.addClass('is-switched').eq(0).one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function() {		
-						hide_not_selected_items(table_elements, selected_filter);
-						pricing_table_wrapper.removeClass('is-switched');
-						//change rotation direction if .pricing-list has the .bounce-invert class
-						if(pricing_table.find('.pricing-list').hasClass('bounce-invert')) pricing_table_wrapper.toggleClass('reverse-animation');
-					});
-				}
-			});
-		});
-	}
-	function show_selected_items(selected_elements) {
-		selected_elements.addClass('is-selected');
-	}
-
-	function hide_not_selected_items(table_containers, filter) {
-		$.each(table_containers, function(key, value){
-	  		if ( key != filter ) {	
-				$(this).removeClass('is-visible is-selected').addClass('is-hidden');
-
-			} else {
-				$(this).addClass('is-visible').removeClass('is-hidden is-selected');
-			}
-		});
-	}
-}); 
+            } else {
+               $(this).addClass('is-visible').removeClass('is-hidden is-selected');
+            }
+         });
+      }
+   });
 </script>
 </body>
+
 </html>
