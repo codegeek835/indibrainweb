@@ -1,5 +1,6 @@
-<?php $this->load->view('front/lib/header.php'); ?>
-<link rel="stylesheet" href="../assets/front/css/jquery.flex-images.css">
+ <?php $this->load->view('front/lib/header.php'); ?>
+ 
+<link rel="stylesheet" href="<?php echo base_url() ?>assets/front/css/jquery.flex-images.min.css">
 <section>
     <div class="container-margin">
         <div class="row bg-light p-a-10 m-top-50">
@@ -195,7 +196,6 @@
 <script src="../assets/front/js/jquery.flex-images.min.js"></script>
 <script>
     var layout_height = 300;
-
     function submit_form() {
         var selected = $('#photos').val();
         document.getElementById("submitform").action = selected;
@@ -266,5 +266,4 @@
     });
 </script>
 </body>
-
 </html>

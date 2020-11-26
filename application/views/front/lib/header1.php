@@ -8,6 +8,8 @@
   <title><?php if (isset($title)) { echo $title;} ?></title>
   <meta name="description" content="<?php if (isset($description)) { echo $description;} ?>" />
   <meta name="keywords" content="<?php if (isset($keywords)) { echo $keywords;} ?>" />
+  <!-- Responsive Style Sheets -->
+  <!-- Revolution Style Sheets -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="<?php echo base_url('assets/front/css/master.min.css') ?>">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -99,6 +101,22 @@
           <div class="logo">
             <a href="<?php echo base_url('/') ?>"> <img class="logo logo-display" src="<?php echo base_url() ?>assets/front/images/logo.png" alt=""> <img class="logo logo-scrolled" src="<?php echo base_url() ?>assets/front/images/logo.png" alt=""> </a>
             <!-- -->
+            <div id="top_search" class="fix_s topsearch">
+              <div class="search-container">
+                <form method="GET" action="<?php echo base_url('category/photos'); ?>">
+                  <input type="text" placeholder="Search free photos and more" name="s" value="<?php if (isset($_GET['s'])) {
+                                                                                                  echo $_GET['s'];
+                                                                                                } ?>" required>
+                  <input type="hidden" name="cat" value="">
+                  <input type="hidden" name="sby" value="all">
+                  <input type="hidden" name="ltyp" value="all">
+                  <input type="hidden" name="cby">
+                  <input type="hidden" name="ornt">
+                  <input type="hidden" name="people">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -114,9 +132,9 @@
             <?php if ($this->session->userdata('ptnr_id')) { ?>
               <li><a href="<?php echo base_url('partner-dashboard') ?>">Creative Dashboard</a></li>
             <?php } else { ?>
-              <li><a href="<?php echo base_url('creative_partner') ?>">Creative Partner</a></li>
+              <li><a href="<?php echo base_url('partner-login') ?>">Creative Partner</a></li>
             <?php } ?>
-            <li><a href="<?php echo base_url('pricing') ?>">Pricing</a></li>
+            <li><a href="<?php echo base_url('/') ?>">Pricing</a></li>
             <?php if ($this->session->userdata('user_id')) { ?>
               <li class="dropdown">
                 <a href="#" class="" data-toggle="dropdown" style="font-size: 14px;"><i class="fa fa-user-circle-o dis-block"></i><?php echo substr($this->session->userdata('user_name'), 0, 8) ?><b class="caret"></b></a>

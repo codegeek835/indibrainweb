@@ -1,7 +1,7 @@
 <?php $this->load->view('front/lib/header.php'); ?>
 
 <!--== Header End ==-->
-<section style="padding-bottom: 0px;padding-top: 0px;margin-top: 50px;">
+<section style="padding-bottom: 0px; padding-top: 0px;margin-top: 63px;">
    <!-- about-us-1 start -->
    <div id="carousel-example" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -27,7 +27,7 @@
             <div class="all-padding-50 text-center white-color">
                <h1 class="font-style top-mt">Make Your World Beautiful With Us</h1>
                <div class="topnav">
-                  <div class="search-container">
+                  <div class="search-container search-header ser-d" id="search">
                      <form id="submitform" method="GET">
                         <input type="text" placeholder="Search free photos and more" name="s">
                         <input type="hidden" name="cat" value="">
@@ -43,7 +43,7 @@
                            <option value="arts">Arts</option>
                            <option value="prints">Creative Prints</option>
                         </select>
-                        <button type="submit" onclick="submit_form()">Search</button>
+                        <button type="submit" onclick="submit_form()" class="ser-d">Search</button>
                      </form>
                   </div>
                </div>
@@ -77,7 +77,6 @@
          <div class="col-md-12 text-center">
             <div class="section-title">
                <h2 class="roboto-font text-uppercase">Discover vast library of Free Assets <br> for your creative work</h2>
-               <hr class="center_line white-bg">
             </div>
          </div>
       </div>
@@ -151,7 +150,6 @@
          <div class="col-md-12 text-center">
             <div class="section-title">
                <h2 class="roboto-font text-uppercase">OUR CURATED COLLECTIONS</h2>
-               <hr class="center_line white-bg">
             </div>
          </div>
       </div>
@@ -212,7 +210,6 @@
          <div class="col-md-12 text-center">
             <div class="section-title">
                <h2 class="roboto-font text-uppercase">Discover More <br> Stunning digital & handmade art collection </h2>
-               <hr class="center_line white-bg">
             </div>
          </div>
       </div>
@@ -245,6 +242,21 @@
 </div>
 <!--== Wrapper End ==-->
 <?php $this->load->view('front/lib/footer-js.php'); ?>
+<script>
+   var header = document.getElementById("search");
+   var sticky = header.offsetTop;
+   window.onscroll = function() {
+      myFunction()
+   };
+
+   function myFunction() {
+      if (window.pageYOffset >= sticky) {
+         header.classList.add("search-sticky");
+      } else {
+         header.classList.remove("search-sticky");
+      }
+   }
+</script>
 </body>
 
 </html>

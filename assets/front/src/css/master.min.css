@@ -13095,6 +13095,25 @@ xcustom form elements
 	width: 90%;
 }
 
+.search-sticky {
+	position: fixed;
+	top: 0;
+	width: 70%;
+	z-index: 999;
+}
+
+.search-sticky input[type="text"] {
+	padding: 10px;
+}
+.search-sticky select {
+	font-size: 17px;
+	padding: 10px 0px;
+}
+
+.search-sticky .ser-d {
+	padding: 11px 90px !important;
+}
+
 .slider-img {
 	width: 100%;
 	height: 525px !important;
