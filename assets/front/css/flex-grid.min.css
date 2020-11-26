@@ -1,0 +1,2 @@
+.grid-item{height:550px;-ms-flex-preferred-size:100%;flex-basis:100%;-ms-flex:auto;width:259px;position:relative;padding:10px;-webkit-box-sizing:border-box;box-sizing:border-box}@media (max-width:1333px){.grid-item{-ms-flex-preferred-size:33.33%;flex-basis:33.33%}}@media (max-width:555px){.grid-item{-ms-flex-preferred-size:100%;flex-basis:100%}}@media (min-width:1073px){.grid-item{-ms-flex-preferred-size:33.33%;flex-basis:33.33%}}@media (min-width:815px){.grid-item{-ms-flex-preferred-size:50%;flex-basis:50%}}
+/*# sourceMappingURL=flex-grid.min.css.map */

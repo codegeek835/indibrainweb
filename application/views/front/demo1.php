@@ -1,5 +1,4 @@
 <?php $this->load->view('front/lib/header.php'); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
 <!--== Header End ==-->
 <section>
    <!-- about-us-1 start -->

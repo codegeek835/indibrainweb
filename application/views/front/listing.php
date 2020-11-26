@@ -217,17 +217,6 @@
         document.getElementById("submitform").submit();
     }
 
-    function initMostCont() {
-        if (jQuery('#newGallery .item').length > 0) {
-            jQuery.when(jQuery('#newGallery').flexImages({
-                rowHeight: layout_height
-            })).then(function() {
-                jQuery('.flex-images .item').css('border', '1px solid #e5e5e5');
-            });
-            jQuery(window).trigger('resize');
-        }
-    }
-
     $(document).ready(function() {
         $(".filter-button").click(function() {
             var value = $(this).attr('data-filter');
@@ -245,7 +234,7 @@
             $(this).removeClass("active");
         }
         $(this).addClass("active");
-        initMostCont();
+        initMostCont('newGallery');
     });
 
     jQuery(window).resize(function() {
@@ -267,13 +256,6 @@
             }, 300);
         });
     });
-
-    // $(".column").sortable({
-    //     connectWith: ".column",
-    //     handle: ".portlet-header",
-    //     cancel: ".portlet-toggle",
-    //     placeholder: "drop-placeholder"
-    // });
 
     $('.portlet-header').on('click', function(e) {
         if ($(e.target).children().last().hasClass('fa-caret-down')) {

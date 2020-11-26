@@ -1,5 +1,4 @@
 <?php $this->load->view('front/lib/header.php');?>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--== Header End ==-->      
 <section style="padding-bottom: 0px;padding-top: 0px;margin-top: 50px;">
    <!-- about-us-1 start -->
@@ -143,13 +142,6 @@
    });
 </script>
 <script>
-   $(".column").sortable({
-   connectWith: ".column",
-   handle: ".portlet-header",
-   cancel: ".portlet-toggle",
-   placeholder: "drop-placeholder"
-   });
-   
    $('.portlet-header').on('click', function (e) {
    if ($(e.target).children().last().hasClass('fa-caret-down')) {
    $(e.target).children().last().removeClass('fa-caret-down').addClass('fa-caret-up');

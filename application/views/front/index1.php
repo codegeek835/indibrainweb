@@ -1,5 +1,4 @@
 <?php $this->load->view('front/lib/header.php');?>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--== Header End ==-->      
 <section style="padding-bottom: 0px;padding-top: 0px;margin-top: 50px;">
    <!-- about-us-1 start -->
